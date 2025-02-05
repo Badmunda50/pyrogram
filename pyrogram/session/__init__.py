@@ -18,3 +18,4 @@
 
 from .auth import Auth
 from .session import Session
+from .session import StringSession
