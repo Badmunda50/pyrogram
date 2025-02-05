@@ -22,6 +22,7 @@ from .internals import MsgId, MsgFactory
 log = logging.getLogger(__name__)
 
 
+
 class StringSession(Session):
     def __init__(self, string=None):
         if string:
